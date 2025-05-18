@@ -122,9 +122,13 @@ If not, you may need to add Miniconda to your system `PATH`.
 
 """
 C:\Users\<YourName>\miniconda3\Scripts
+
 C:\Users\<YourName>\miniconda3\Library\bin
+
 C:\Users\<YourName>\miniconda3\Library\usr\bin
+
 C:\Users\<YourName>\miniconda3\Library\mingw-w64\bin
+
 """
 
 After adding the paths, click **OK** and restart your terminal.
