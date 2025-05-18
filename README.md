@@ -72,7 +72,7 @@ Think of it as your all-in-one workspace for programming.
 
 # 🧑‍💻 Running Jupyter Notebooks in VS Code + Useful Python Commands
 
-This README provides a quick guide on how to use **Jupyter Notebooks** within **Visual Studio Code (VS Code)**, along with a handy reference table of **essential commands** and **shortcuts** for Python development.
+This section provides a quick guide on how to use **Jupyter Notebooks** within **Visual Studio Code (VS Code)**, along with a handy reference table of **essential commands** and **shortcuts** for Python development.
 
 ---
 
