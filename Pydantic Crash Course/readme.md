@@ -17,10 +17,10 @@ Pydantic lets you define **data models** using Python classes. It automatically 
 To install Pydantic, run this command:
 
 ```bash
-pip install pydantic
+""" pip install pydantic"""
 
 
-# ✍️ Example Code
+## ✍️ Example Code
 """
 from pydantic import BaseModel
 from typing import Optional
@@ -39,6 +39,7 @@ print(user.email)   # Output: alice@example.com
 """
 
 ---
+
 
 
 ## 🔍 What’s Happening in the Code?
