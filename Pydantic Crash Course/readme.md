@@ -43,17 +43,16 @@ print(user.email)   # Output: alice@example.com
 
 
 ## 🔍 What’s Happening in the Code?
-BaseModel: This is the main class from Pydantic that we use to define our data model.
 
-id, name, email: These are the fields we expect. Each one has a type. For example:
+- **`BaseModel`**: This is the main class from Pydantic that we use to define our data model.
 
-id must be an int
+- **`id`**, **`name`**, **`email`**: These are the fields we expect. Each one has a type. For example:
+  - `id` must be an **`int`**
+  - `name` must be a **`str`**
+  - `email` is **optional** – it can be a string or left out
 
-name must be a str
+- If you pass wrong data (like a string for `id`), Pydantic will raise an error and let you know something is wrong.
 
-email is optional – it can be a string or left out
-
-If you pass wrong data (like a string for id), Pydantic will raise an error and let you know something is wrong.
 
 ---
 
