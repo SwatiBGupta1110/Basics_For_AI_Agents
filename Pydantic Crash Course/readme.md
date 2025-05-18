@@ -12,16 +12,18 @@ Pydantic lets you define **data models** using Python classes. It automatically 
 
 ---
 
-## 📦 Installation
+# Pydantic Example: Simple User Model
 
-To install Pydantic, run this command:
+## Installation
 
-```bash
-""" pip install pydantic"""
+To get started, install Pydantic using pip:
+
+"""pip install pydantic"""
 
 
 ## ✍️ Example Code
-"""
+
+
 from pydantic import BaseModel
 from typing import Optional
 
@@ -36,9 +38,7 @@ user = User(id=1, name="Alice", email="alice@example.com")
 print(user.id)      # Output: 1
 print(user.name)    # Output: Alice
 print(user.email)   # Output: alice@example.com
-"""
 
----
 
 
 ## 🔍 What’s Happening in the Code?
@@ -54,6 +54,9 @@ print(user.email)   # Output: alice@example.com
 
 
 ---
+
+
+
 
 
 
