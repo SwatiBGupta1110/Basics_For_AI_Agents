@@ -41,7 +41,6 @@ print(user.email)   # Output: alice@example.com
 ---
 
 
-
 ## 🔍 What’s Happening in the Code?
 
 - **`BaseModel`**: This is the main class from Pydantic that we use to define our data model.
@@ -55,6 +54,7 @@ print(user.email)   # Output: alice@example.com
 
 
 ---
+
 
 
 
