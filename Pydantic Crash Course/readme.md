@@ -38,6 +38,8 @@ print(user.name)    # Output: Alice
 print(user.email)   # Output: alice@example.com
 """
 
+---
+
 
 ## 🔍 What’s Happening in the Code?
 BaseModel: This is the main class from Pydantic that we use to define our data model.
@@ -52,7 +54,7 @@ email is optional – it can be a string or left out
 
 If you pass wrong data (like a string for id), Pydantic will raise an error and let you know something is wrong.
 
-
+---
 
 
 
