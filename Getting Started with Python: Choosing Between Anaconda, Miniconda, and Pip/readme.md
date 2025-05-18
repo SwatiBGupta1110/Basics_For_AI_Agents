@@ -109,10 +109,6 @@ Open your terminal and run:
 
 ```conda --version```
 
-"""
-conda --version
-"""
-
 If you see a version number, Miniconda is installed correctly.  
 If not, you may need to add Miniconda to your system `PATH`.
 
