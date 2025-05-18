@@ -120,7 +120,7 @@ If not, you may need to add Miniconda to your system `PATH`.
 2. Under **System Variables**, find and select the **Path** variable  
 3. Add these paths (adjust for your username):
 
-"""
+
 C:\Users\<YourName>\miniconda3\Scripts
 
 C:\Users\<YourName>\miniconda3\Library\bin
@@ -128,8 +128,6 @@ C:\Users\<YourName>\miniconda3\Library\bin
 C:\Users\<YourName>\miniconda3\Library\usr\bin
 
 C:\Users\<YourName>\miniconda3\Library\mingw-w64\bin
-
-"""
 
 After adding the paths, click **OK** and restart your terminal.
 
@@ -144,7 +142,7 @@ After adding the paths, click **OK** and restart your terminal.
 ---
 
 ## Useful Conda Commands
-"""
+
 # Create a new environment with Python 3.10
 conda create -n myenv python=3.10
 
@@ -159,7 +157,7 @@ conda env list
 
 # Install a package in the active environment
 conda install numpy
-"""
+
 ## Wrap-up
 
 - Use **Anaconda** if you want everything set up instantly for data science projects.  
